@@ -1,4 +1,7 @@
 * {
+    box-sizing: border-box;
+}
+html {
     font-family: 'Segoe UI',Verdana, sans-serif;
     font-size: 62.5%; /* 100% =16px*/
 }
@@ -12,13 +15,12 @@ img {
 
 .nav-sup {
     width: 100%;
-    height: 1.5em;
+    height: 5em;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0.2rem 1rem;
     background-color: #3A3A3A;
-    font-size: 8em;
 }    
 
 .nav-sup > nav {
@@ -28,16 +30,17 @@ img {
 }
 
 .nav-sup > nav > a {
-    padding: 0.5em 0.5em;
-    width:40em;
+    font-size: 1.5em;
+    padding: 0.4em 0.5em;
+    width: 50em;
     text-decoration: none;
     color: white;
     /*display: none;*/ 
 }
 
 #foto-logo {
-    width: 2em;
-    height: 2em;
+    width: 4em;
+    height: 4em;
     padding-bottom: 0.2rem;
     border-radius: 0.2em;
 }
@@ -47,5 +50,152 @@ img {
     background-image: url("img/capa.jpg");
     background-position: center 10%;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
 }
+
+.bio {
+    width: 100%;
+    height: 60em;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    padding: 0 0rem;
+    background-color: white;
+}
+
+.foto-rrss {
+    /*display: flex;*/
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.fotogrande {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -8em;
+    margin-right: 8em;
+}
+
+.icones {
+    margin-top: -4em;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 8em;
+    /*align-items: space-between;
+    padding: 0 center;*/
+}
+
+/*.text-icones {
+    margin: 0;
+    display: flex;
+   
+}
+
+.linkedin {
+    margin: 0;
+}
+.github {
+   
+}
+.stackoverflow {
+    margin-left: 40em;
+}
+*/
+
+.sobremi {
+    width: 50%;
+    opacity: 1;
+    margin: 0;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #707070;
+
+}
+
+.italic {
+    font: italic 300; 
+}
+h1 {
+    margin: 0;
+    font: bold;
+    font-size: 7.3em;
+}
+h2 {
+    margin-top: 0.1em;
+    font-size: 4.6em;
+}
+h3 {
+    margin-top: 0.3em;
+    font-size: 4.6em;
+    font: bold;
+}
+.apresentacao {
+    margin: 0;
+    font-size: 3em;
+    font: normal;
+    text-align: left;
+    margin-right: 0.5em;
+}
+
+.formacao {
+    width: 100%;
+    height: 60em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0rem;
+    background-color: #dedede;
+    color: #707070;
+    opacity: 1;   
+}
+
+.tituloformacao {
+    text-align: center;
+    color: #707070
+    width: 23.em;
+    height: 7.3em;
+
+}
+
+.formacao1 {
+    width: 100%;
+    margin-left: 5.6em;
+    padding: 0.5em;
+    display: rows;
+}
+
+.barra {
+    margin: 0;
+    width: 0.8em;
+    height: 6.6em;
+    background: #000000 0% 0% no-repeat padding-box;
+    border-radius: 0.5em;
+    opacity: 1;
+}
+.ano{
+    margin-top: 0.3em;
+    width: 10.9em;
+    height: 3.1em;
+    font-size: 1.3em;
+    font: normal;
+}
+.diploma {
+    margin-top: 0.3em;
+    width: 84.4em;
+    height: 3.1em;
+    font-size: 2.1em;
+    font: normal;
+}
+.instituto {
+    margin-top: 0.3em;
+    width: 55.8em;
+    height: 3.1em;
+    font-size: 1.3em;
+    font: normal;
+}
+
+
+
+
+
