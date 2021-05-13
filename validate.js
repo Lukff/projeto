@@ -1,7 +1,3 @@
-
-
-//validação dados formulario
-
 function validateEmail(e) {
     let field = e.target;
     let fieldValue = field.value;

@@ -9,10 +9,10 @@ html {
     font-size: 62.5%; /* 100% =16px*/
 }
 
-body {
+/* body {
     margin: 0;
     padding: 0;
-}
+} */
 
 img {
     max-width: 100%;
@@ -61,7 +61,7 @@ img {
 
 .bio {
     width: 100%;
-    height: 60em;
+    height: 45em;
     display: flex;
     justify-content: center;
     align-items: top;
@@ -335,21 +335,52 @@ h3 {
 
 }
 
-.contato {
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    padding: 20px 0 20px 0;
+.footer {
+    height: 51.8em;
+    padding: 3em 3em;
+    background: #000000 0% 0% no-repeat padding-box;
+  
+}
+#titulocontato {
+    color: #FFFFFF;
+    background: #000000 0% 0% no-repeat padding-box;
+    padding: 0.5em 6.5em 0.5em;
+    font-size: 5.5em;
+    
 }
 
+/* ******
+
+
 .textContact {
-    color: #fff;
-    padding-bottom: 25px;
+    display: block;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.textContact p {
+    color: #707070;
+    width: 100%;
+    padding: 0.5em 6.5em 0.5em;
+    font-size: 2.1em;
+    text-align: left;
     line-height: 25px;
 }
 
-.textContact h2 {
-    padding-bottom: 12px;
+.form {
+    display: flex;
+}
+
+.formulario {
+    width: 50%;
+    height: 13.3em;
+    opacity: 1;
+    margin: 0;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+
 }
 
 .redes-sociais {
@@ -363,14 +394,8 @@ h3 {
 
 .ig {
     margin-right: 5px;
-}
+} */
 
-.formulario {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    color:#fff;
-}
 
 
 

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Consuelo Ascanio - FullStack Developer</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="iconos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 </head>
 <body>
     <header>
@@ -125,49 +125,45 @@
                 <a class="botao" href="#">VER DEMO</a>
             </div>
         </article>
-
-        <!-- Footer -->
-        <footer>
-            <section class="contato">
-                <section class="textContact">
-                    <h2>Contato</h2>
-                    <p>Quer entrar em contato comigo?</p>
-                    <p>Preencha o formulário e entrarei em contato o mais rápido possível.</p>
-                    <p>Você também pode me encontrar nas seguintes redes sociais:</p>
-                    <div class="redes-sociais">
-                        <a href="http://www.instagram.com/consuelo.ascanio" target="_blank"><img
-                                src="img/instagram.png" alt="instagram" class="ig"></a>
-                        <a href="https://www.facebook.com/consuelo.ascanio" target="_blank"><img src="img/facebook.png"
-                                alt="facebook" class="fb"></a>
-                    </div>
-                </section>
-                <form action="#" class="formulario">
-                    <label for="nome">Nome:</label>
-                    <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
-                    <label for="email">E-mail:</label>
-                    <input type="email" id="email" name="email" placeholder="Seu email" required>
-                    <label for="email">Qual serviço precisa?</label>
-                    <textarea name="text" id="text" cols="30" rows="10" required></textarea>
-                    <div class="styleEnviar">
-                        <button id="buttonEnviar" type="reset">ENVIAR</button>
-                    </div>
-                    <p id="completaNome" class="warningRevisar">Tem um ou mais campos sem escrever</p>
-                    <p id="mensagemEnviado" class="formularioEnviado">Seu mensagem foi enviado</p>
-                </form>
-            </section>
-            <section class="copy">
-                <h3>&copy Consuelo Ascanio, 2021</h3>
-            </section>
-        </footer>
-        
-        
     </section>
 
-    
+    <div id="titulocontato">Contato</div>
+    <div class="container"></div>
+        <div class="row justify-content-start">
+            <article class="col-4" style="font-size: 2.1em; background-color: #000000; text-align: left; width: 50%; padding: 0.5em 0.5em 0.5em 17.5em; color: #707070;">
+                <p>Quer entrar em contato comigo?</p>
+                <p>Preencha o formulário e entrarei em contato o mais rápido possível.</p>
+                <p>Você também pode me encontrar nas seguintes redes sociais:</p>
+                <div class="redes-sociais">
+                    <a href="http://www.instagram.com/consuelo.ascanio" target="_blank"><img
+                        src="img/instagram.png" alt="instagram" class="ig"></a>
+                    <a href="https://www.facebook.com/consuelo.ascanio" target="_blank"><img src="img/facebook.png"
+                        alt="facebook" class="fb"></a>
+                </div>
+            </article>
+            <article class="col-4" style="font-size: 1.7em; background-color: #000000; text-align: left; width: 50%; padding: 0.5em 14em 0.5em 2em; color: #707070;">
+                <form action="#" class="mb-3">
+                    <div class="mb-3">
+                        <label for="nome" class="form-label">NOME</label>
+                        <input type="text" class="form-control" id="nome" name="nome" placeholder="Seu nome" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">E-MAIL</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Seu email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">MENSAGEM</label>
+                        <textarea name="text" class="form-control" id="text" cols="30" rows="10" required></textarea>
+                    </div>
+                    <button type="button" class="btn btn-secondary btn-sm">ENVIAR</button>
 
-    
-
-</main>  
+                </form>
+            </article>
+        </div>
+    </div>
+        
+</main>
+    <script src="code.js"></script>
 </body>
 
 </html>
