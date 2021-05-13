@@ -6,7 +6,8 @@ html {
     font-size: 62.5%; /* 100% =16px*/
 }
 body {
-    margin: 0
+    margin: 0;
+    padding: 0;
 }
 
 img {
@@ -257,31 +258,29 @@ h3 {
 }
 
 /*PROJETOS*/
-#projetos {
+.projetos {
     display: flex;
-    width: 100%;
-    height: 51.8em;
-    background: #F2F2F2 0% 0% no-repeat padding-box;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    flex-direction: row;
-    padding: 0.5em 0.5em;
-    background-color: #dedede;
-    opacity: 1;   
+    padding: 3em 3em;
+    /*width: 100%;
+    height: 51.8em;*/
+    background: #F2F2F2 0% 0% no-repeat padding-box;
+    
 }
 #tituloproj {
-    width: 100%;
     color: #707070;
+    background: #F2F2F2 0% 0% no-repeat padding-box;
     padding: 0.5em 5.5em 0.5em; 
+    padding: 0.5em 6.5em 0.5em;
     font-size: 5.5em;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
+    
 }
-
 
 #projeto1 {
     margin: 0;
-    flex-direction: column;
-    align-items: center;
+    padding: 0.5em 0.5em;
+    align-content: center;
     width: 26em;
     height: 33.5em;
     background: #3333 0% 0% no-repeat padding-box;
@@ -291,34 +290,38 @@ h3 {
 }
 
 .imgproj1 {
-   padding: 21px;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 1.2em;
     width: 23.2em;
     height: 12.9em;
     border: 0.1em solid #707070;
 }
 
 .titproj {
+    margin: 0;
+    padding: 0.5em 0em;
     width: 16.7em;
-    text-align: left;
     font-weight: bold;
     font-size: 2.1em;
     color: #707070;
 }
 
 .descproj {
-    
+    margin: 0;
+    padding: 0.2em 0em;
     width: 20em;
-    height: 7.6em;
+    height: 7em;
     font-size: 1.3em;
     color: #707070;
 }
 
 .botao {
     margin: 0;
-    padding: 0.2em 0.2em;
+    align-items:inherit;
+    align-content: center;
+    padding-bottom: 3em;
     display: inline-block;
-    
-    justify-content: space-around;
     width: 11em;
     height: 3.4em;
     background: #585858 0% 0% no-repeat padding-box;
@@ -327,6 +330,94 @@ h3 {
     text-decoration: none;
 
 }
+
+/*CONTATO*/
+#titulocontato {
+    color: #FFFFFF;
+    background: #000000 0% 0% no-repeat padding-box;
+    padding: 0.5em 0em 0.5em 6.5em;
+    font-size: 5.5em;
+}
+
+.contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    width: 100%;
+    height: 60.9em;
+    background: #000000 0% 0% no-repeat padding-box;
+    
+}
+
+#contato1 {
+    display: block;
+    width: 50%;
+    padding: 0;
+    padding: 0.5em 0em 0.5em 6.5em;
+    color: #707070;
+    font-size: 2em;
+}
+
+.boxcontato article > p {
+    font-size: 2em;
+    width: 39.8em;
+    height: 20.0em;
+    padding: 0;
+    padding: 0.5em 0em 0.5em 3.5em;
+    text-align: left;
+    
+}
+
+/*.iconredes {
+    display: flex;
+    width: 100%;
+    padding: 0;
+    padding: 1.5em;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconredes > div > p {
+    width: 100%;
+    margin: 0;
+    padding:0;
+    padding: 1.5em;
+    font-size: 0.8em;
+    
+}
+.iconredes > div > img {
+    width: 2em;
+    height: 2.1em;
+    margin: 0;
+    padding:0;
+    padding: 1.5em;
+    /*padding: 2em .5em 0em .5em;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    /*border: 1px solid #707070;
+}
+*/
+
+.iconredes {
+    display: block;
+}
+
+
+
+.desiconos {
+    display: block;
+}
+
+.form {
+    display: flex;
+    width: 50%;
+    padding: 0.5em 6.5em 0.5em;
+    color: #707070;
+    font-size: 2em;
+}
+
 
 
 
