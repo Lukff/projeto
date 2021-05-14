@@ -41,7 +41,8 @@ function displayError(message,field) {
 }
 
 function clearError(field) {
-    let container = field.parent.Element;
+    console.log(field)
+    let container = field.parentElement;
     let error = container.querySelector('.error-message');
     if (error) {
         container.removeChild(error);
@@ -50,19 +51,19 @@ function clearError(field) {
 }
 
 function checkEnableSubmit() {
-    let form = document.querySelector('#form');
+    let form = document.querySelector('form');
     let notValidated = form.querySelectorAll('.not-validated');
     let errors = form.querySelectorAll('.is-invalid');
 
-    if (error.length == 0 && notValidated.length == 0) {
-        checkEnableSubmit();
+    if (errors.length == 0 && notValidated.length == 0) {
+        enabledSubmit();
     } else {
         disabledSubmit();
     }
 }
 
 function enabledSubmit() {
-    let form = document.querySelector('#form');
+    let form = document.querySelector('form');
     let submit = form.querySelector('[type=submit]');
 
 
@@ -70,11 +71,11 @@ function enabledSubmit() {
 }
 
 function disabledSubmit() {
-    let form = document.querySelector('#form');
-    let submit = form.querySelector('[type=submit]');
+    let form = document.querySelector('form');
+    let submit = form.querySelector('[type="submit"]');
 
 
-    submit.disabled =true;
+    submit.disabled = true;
 }
 
 document.querySelectorAll('input').forEach(el => el.classList.add('not-validated'));
